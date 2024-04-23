@@ -34,3 +34,11 @@ we have to change type in packages.json file to module now run the server by nod
 
 install nodemon(with changing some script from packages.json)
  10. npm i nodemon
+
+now we need to connect the db for that we use mongoose packages 
+  11. npm i mongoose
+
+to hide db connect veriables we have to use .env file that why have to install dotenv packages
+  12.npm i dotenv
+
+to ingnor .env file from github we need to add .env file in gitignore
