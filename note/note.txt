@@ -2,13 +2,23 @@ First of all we need to create a folder where which will contain some other fold
   1. npm create vite@latest
 Then have to chose name of the project that will be client that then framework in this case we will use React after that variant will js + swc for frister compilation 
 
+
 Now we have to install all dependencies that folder are created but not install yeat 
 so that go to client folder and
   2. npm i 
    to install
+
 Now we need to install tailwind css
   3. npm install -D tailwindcss postcss autoprefixer
+
 To initialize tailwind css 
   4. npx tailwindcss init -p
+
 We have to create route for each page of the website for that in react we have a hook that is react-router-dom to install that hook 
   5.npm i react-router-dom
+
+To get new button or any other ui components very easily we will use flowbite for that we have to install that by 
+  6.npm i flowbite-react
+
+We will use react icon for that we have to install react icon libray
+  7. npm i react-icons
