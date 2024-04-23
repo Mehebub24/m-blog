@@ -22,3 +22,15 @@ To get new button or any other ui components very easily we will use flowbite fo
 
 We will use react icon for that we have to install react icon libray
   7. npm i react-icons
+
+Create and run server
+  we wanna create backend in the root directory the reason we are doing that when we deploy the application so that the server is going to read the file inside the root directory and understand our code so we need to put the packages.json for the backend inside the root directory
+To create a packages.json file
+  8. npm init -y
+To create a server need to install express
+  9.npm i express
+
+we have to change type in packages.json file to module now run the server by node api/index.js 
+
+install nodemon(with changing some script from packages.json)
+ 10. npm i nodemon
