@@ -1,11 +1,23 @@
-import React from 'react';
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import Home from './page/Home'
+import Dashboard from './page/Dashboard'
+import About from './page/About'
+import Projects from './page/Projects'
+import Singin from './page/Singin'
+import Singup from './page/Singup'
 
-const App = () => {
+
+export default function App() {
   return (
-    <h1 className='text-red-500 text-3xl'>
-      hi
-    </h1>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/About' element={<About/>} />
+        <Route path='/Projects' element={<Projects/>} />
+        <Route path='/Dashboard' element={<Dashboard/>} />
+        <Route path='/Singin' element={<Singin/>} />
+        <Route path='/Singup' element={<Singup/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
 }
-
-export default App;

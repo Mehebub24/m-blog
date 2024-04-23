@@ -10,3 +10,5 @@ Now we need to install tailwind css
   3. npm install -D tailwindcss postcss autoprefixer
 To initialize tailwind css 
   4. npx tailwindcss init -p
+We have to create route for each page of the website for that in react we have a hook that is react-router-dom to install that hook 
+  5.npm i react-router-dom
