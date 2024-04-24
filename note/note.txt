@@ -42,3 +42,5 @@ to hide db connect veriables we have to use .env file that why have to install d
   12.npm i dotenv
 
 to ingnor .env file from github we need to add .env file in gitignore
+
+Now we have to create user module for login and sing up as a user
