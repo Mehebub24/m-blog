@@ -6,7 +6,7 @@ Then have to chose name of the project that will be client that then framework i
 Now we have to install all dependencies that folder are created but not install yeat 
 so that go to client folder and
   2. npm i 
-   to install
+  to install
 
 Now we need to install tailwind css
   3. npm install -D tailwindcss postcss autoprefixer
@@ -44,3 +44,15 @@ to hide db connect veriables we have to use .env file that why have to install d
 to ingnor .env file from github we need to add .env file in gitignore
 
 Now we have to create user module for login and sing up as a user
+
+Create a test api route
+  app.get('/test',(reqest,response)=>{
+    res.json({message:'API is working!'})
+  })
+  app: This represents the Express.js application instance.
+  '/test': This is the path (URL) for this route.
+  (request, response) => { ... }: This is an arrow function defining the callback function that executes when a request arrives on the /test route.
+  request: This is an object containing information about the incoming HTTP request, such as headers, parameters, and body data (if applicable).
+  response: This is an object used to send a response back to the client (browser or other application that made the request).
+
+ 
