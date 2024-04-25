@@ -55,4 +55,5 @@ Create a test api route
   request: This is an object containing information about the incoming HTTP request, such as headers, parameters, and body data (if applicable).
   response: This is an object used to send a response back to the client (browser or other application that made the request).
 
- 
+Now we need to encrypt the password of user in the database that why we have to install a package that is 
+  13.npm i bcryptjs
