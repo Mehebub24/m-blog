@@ -6,6 +6,7 @@ import Projects from './page/Projects'
 import Singin from './page/Singin'
 import Singup from './page/Singup'
 import Header from './components/Header'
+import  Footer  from './components/Footer'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path='/Singin' element={<Singin/>} />
         <Route path='/Singup' element={<Singup/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
