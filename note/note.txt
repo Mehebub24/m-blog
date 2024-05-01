@@ -63,3 +63,6 @@ Now we need to encrypt the password of user in the database that why we have to 
 changing proxy in vite.config.js file
 To authentication user 
  14.npm i jsonwebtoken 
+
+creating global state using redux toolkit
+  15.npm install @reduxjs/toolkit react-redux
